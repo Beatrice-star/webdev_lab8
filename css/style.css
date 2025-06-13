@@ -4,27 +4,27 @@
 	float: left;
 	width: 100%;
 	position: relative;
-	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	text-decoration: none;
 }
 
 #navbar-container: {
 	position:relative;
 	float: left;
+    display: block;
+	list-style-type: none;
+	text-decoration: none;
 	left: 50%;
 	right: 50%;
-    display: block;
 	padding: 10px 20px;
 }
 
 #onpage {
+	float: left;
 	text-decoration: underline-overline;
     position: relative;
 	background-color: #000;
 	color:#fff;
-	float: left;
 	display: block;
 }
 
@@ -38,8 +38,8 @@
 }
 
 #sidebar-container {
-	list-style-type: none;
 	display: block;
+	list-style-type: none;
 	text-align: center;
 	padding: 15px 0;
 	color: #fff;
